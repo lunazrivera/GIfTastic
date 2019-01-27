@@ -1,0 +1,109 @@
+body, html {
+    height: 100%;
+    
+}
+/* Borders for laying out the webpage. */
+#bg{
+    padding: 5px;
+    border: 1px solid white;
+    height: 100%;
+    background-color: rgba(0,0,0,.9);
+}
+
+/* -------------------------------------- */
+    #title-container {
+        padding: 20px;
+        /* margin: 5px; */
+        border-bottom: 1px solid rgba(255,255,255,.2);
+    }
+        .fas {
+            color: white;
+            margin-right: 5px;
+            font-size: 2em;
+        }
+        #head-title {
+            color: white;
+            display: inline-block;
+            /* font-family: 'Pacifico', cursive;
+            font-family: 'Righteous', cursive;
+            font-family: 'Hammersmith One', sans-serif; */
+            font-weight: 100;
+            font-family: 'Yellowtail', cursive;
+            font-size: 3em;
+        }
+
+/* -------------------------------------- */
+    #container {
+        padding: 5px;
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 900px;
+        height: 700px;
+        border: 1px solid white;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 4px;
+        
+    }
+        #gif-container {
+            display: flex;
+            flex-wrap: wrap;
+            width: 600px;
+            padding: 5px;
+            /* border: 1px solid white; */
+            overflow: auto;
+        }
+            .gif-space {
+                margin-left: 55px;
+            }
+            p {
+                color: white;
+                font-family: 'Pacifico', cursive;
+                margin: 9px;
+            }
+        #parameters-container {
+            display: flex;
+            /* border: 1px solid white; */
+            /* margin: 5px; */
+        }
+            .param-text{
+                color: white;
+                padding: 10px;
+                font-family: 'Pacifico', cursive;
+                font-weight: 100;
+            }
+            input {
+                width: 90%;
+                display: inline-block;
+                margin-left: 10px;
+                background-color: rgba(255,255,255,.8);
+                /* border-radius: 3px; */
+                /* border: 1px solid black; */
+                margin-bottom: 3px;
+            }
+            button {
+                width: 91%;
+                background-color: black;
+                color: white;
+                margin-left: 10px;
+                /* border-radius: 3px; */
+                margin-bottom: 3px;
+            }
+            #search-container {
+                width: 300px;
+                padding: 5px;
+                margin: 5px;
+                /* border: 1px solid white; */
+            }
+            #tag-container {
+                display: flex;
+                flex-wrap: wrap;
+                padding: 5px;
+                margin: 5px;
+                /* border: 1px solid white; */
+            }
+                .gif-search {
+                    display: inline;
+                    width: 80px;
+                }
+/* -------------------------------------- */
